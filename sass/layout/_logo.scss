@@ -1,0 +1,18 @@
+.page-logo-header,
+.page-logo-footer {
+  font-family: "Raleway", sans-serif;
+  @include font(700, 26px, 1.19, 0.03em);
+  color: var(--accent-color);
+}
+
+.logo-part {
+  font-family: "Raleway", sans-serif;
+  @include font(700, 26px, 1.19, 0.03em);
+  color: var(--black);
+}
+
+.page-logo-header {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  margin-right: 93px;
+}
