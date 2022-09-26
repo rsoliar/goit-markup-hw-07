@@ -11,13 +11,13 @@
   width: 370px;
 }
 
-.portfolio-group {
+.portfolio-list__group {
   @include font(500, 16px, 1.88, 0.03em);
   color: var(--primary-text-color);
   display: inline-block;
 }
 
-.portfolio-name {
+.portfolio-list__name {
   font-style: normal;
   @include font(700, 18px, 2, 0.06em);
   color: var(--text-color);

@@ -813,7 +813,7 @@ p {
   width: 370px;
 }
 
-.portfolio-group {
+.portfolio-list__group {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.88;
@@ -822,7 +822,7 @@ p {
   display: inline-block;
 }
 
-.portfolio-name {
+.portfolio-list__name {
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
