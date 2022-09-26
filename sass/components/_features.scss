@@ -1,4 +1,4 @@
-.features {
+.advantages-list {
   display: flex;
   align-items: flex-start;
   gap: 30px;
@@ -7,17 +7,11 @@
   margin-bottom: 0;
 }
 
-.feature-cards {
-  display: flex;
-  padding-left: 0;
-  gap: 30px;
-}
-
-.features-card {
+.advantages-list__item {
   width: 270px;
 }
 
-.feature-item {
+.advantages-list__icon {
   background-color: var(--secondary-body-colour);
   border-radius: 4px;
   margin-bottom: 30px;
@@ -25,7 +19,7 @@
   @extend %align;
 }
 
-.feature-title {
+.advantages-list__title {
   @include font(700, 14px, 1.14, 0.06);
   text-transform: uppercase;
   color: var(--text-color);
@@ -33,7 +27,7 @@
   margin-bottom: 10px;
 }
 
-.feature-text {
+.advantages-list__text {
   line-height: 1.71;
   margin: 0;
 }

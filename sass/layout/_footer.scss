@@ -12,12 +12,6 @@
   justify-content: space-between;
 }
 
-.footerlogo-part {
-  font-family: "Raleway", sans-serif;
-  @include font(700, 26px, 1.19, 0.03em);
-  color: var(--primary-body-color);
-}
-
 .location {
   line-height: 1.71;
   color: var(--primary-body-color);
@@ -29,12 +23,13 @@
   }
 }
 
-.footer-adress {
+.footer-adress-list__item {
   line-height: 1.71;
   color: var(--primary-body-color);
 }
 
-.footer-econtacts {
+.footer-econtacts,
+.footer-tel {
   line-height: 1.71;
   color: rgba(255, 255, 255, 0.6);
   transition: color var(--transition-dur-and-func);
@@ -45,18 +40,19 @@
   }
 }
 
-.footer-list {
+.footer-adress-list {
   margin-top: 20px;
   margin-bottom: 0;
   width: 231px;
   padding-left: 0;
 }
 
-.footer-contacts {
+.footer-adress-list__item {
   margin-top: 10px;
 }
 
-.footer-social-title {
+.footer-social-title,
+.subscription__title {
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -92,7 +88,7 @@
   }
 }
 
-.subscription-button {
+.subscription__button {
   width: 200px;
   height: 50px;
   background: var(--accent-color);
@@ -112,7 +108,7 @@
   }
 }
 
-.subscription-text-input {
+.subscription__input {
   width: 350px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -128,9 +124,14 @@
   margin-left: 93px;
 }
 
-.subscription-form {
+.subscription__form {
   display: flex;
   gap: 12px;
+}
+
+.subscription__input:focus {
+  outline: none;
+  border-color: var(--accent-color);
 }
 
 .send-subscription-icon {

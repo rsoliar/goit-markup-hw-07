@@ -14,13 +14,13 @@
   padding-bottom: 200px;
 }
 
-.hero-container {
+.hero__container {
   width: 696px;
   text-align: center;
   align-items: center;
 }
 
-.hero-title {
+.hero__title {
   @include font(900, 44px, 1.36, 0.06em);
   text-align: center;
   text-transform: uppercase;
@@ -30,7 +30,7 @@
   align-items: center;
 }
 
-.hero-button {
+.hero__button {
   display: inline-block;
   font-family: inherit;
   @include font(700, 16px, 1.88, 0.06em);

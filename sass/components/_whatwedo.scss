@@ -8,7 +8,7 @@
   align-items: center;
 }
 
-.work-sample {
+.work-sample-list {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,11 +17,11 @@
   padding-left: 0;
 }
 
-.work-div {
+.work-sample-list__item {
   position: relative;
 }
 
-.work-div > .label-work {
+.work-sample-list__item > .work-sample-list__desc {
   position: absolute;
   bottom: 0;
   padding-top: 27px;

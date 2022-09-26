@@ -32,7 +32,7 @@
   border-right: 1px solid var(--border-portfolio-color);
 }
 
-.portfolio-link {
+.portfolio-list__link {
   &:hover,
   &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -58,8 +58,8 @@
   transform: translateY(100%);
   transition: var(--transition-dur-and-func);
 
-  .portfolio-link:focus &,
-  .portfolio-link:hover & {
+  .portfolio-list__link:focus &,
+  .portfolio-list__link:hover & {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
     display: block;
